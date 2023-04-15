@@ -1,0 +1,74 @@
+.container {
+    background-image: url('https://teamsbackground.net/wp-content/uploads/2020/04/star-wars-backgrounds-14.jpg');
+    size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.director {
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.character-card {
+    padding: 2rem;
+    border-radius: 4px;
+    background-color: black;
+    opacity: 86%;
+    margin: 2rem 0rem;
+    width: 50%;
+    text-align: center;
+}
+
+.character-name {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: .625rem;
+}
+
+.character-info {
+    color: white;
+    font-size: 1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter {
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.select {
+    text-align-last: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .director {
+        font-size: 1.5rem;
+    }
+
+    .character-name {
+        font-size: 1.5rem;
+    }
+
+    .character-info {
+        font-size: 0.9rem;
+    }
+}

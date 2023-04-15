@@ -1,0 +1,49 @@
+.container {
+    min-height: 97.5vh; background-image: url('https://teamsbackground.net/wp-content/uploads/2020/04/star-wars-backgrounds-14.jpg');
+    background-size: 100% 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+.card {
+    padding: 2rem;
+    border-radius: 4px;
+    background-color: black;
+    opacity: 86%;
+    margin: 2rem 0rem;
+    width: 50%;
+    text-align: center;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.625rem;
+}
+
+.director {
+    color:rgba(255, 255, 0, 0.805);
+    font-size: 1.2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 37.5rem) {
+    .container {
+        padding: 0 1.25rem;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .director {
+        font-size: 0.9rem;
+    }
+}
