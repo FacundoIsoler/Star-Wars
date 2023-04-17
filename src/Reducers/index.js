@@ -3,12 +3,13 @@ const initialState = {
   allMovies: {},
   movieDetails: {},
   movieCharacters: {},
+  loading: true,
 };
 
 export default function moviesReducer(state = initialState, action) {
   switch (action.type) {
     case "GET_MOVIES_SUCCESS":
-      return { ...state, allMovies: action.payload };
+      return { ...state, allMovies: action.payload, loading: false};
     case "GET_MOVIES_ERROR":
       return { ...state, error: action.payload };
     case "GET_MOVIE_DETAILS_SUCCESS":
