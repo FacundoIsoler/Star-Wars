@@ -1,4 +1,3 @@
-// movies.js
 const initialState = {
   allMovies: {},
   movieDetails: {},
