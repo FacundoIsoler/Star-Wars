@@ -34,6 +34,13 @@
     align-items: center;
 }
 
+.Volver {
+    text-decoration: none;
+    color: rgba(255, 255, 0, 0.805);
+    font-size: 1.875em;
+    position: relative;
+}
+
 @media only screen and (max-width: 37.5rem) {
     .container {
         padding: 0 1.25rem;

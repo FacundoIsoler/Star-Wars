@@ -1,6 +1,6 @@
 .Page{
     min-height: 97.5vh; background-image: url('https://teamsbackground.net/wp-content/uploads/2020/04/star-wars-backgrounds-14.jpg');
-    background-size: 100% 150%;
+    background-size: 80% 150%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,5 +10,4 @@
 
 .Loading{
         position: center;
-        margin-top: 6em;
-}
+    }

@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./MovieDetails.module.css";
 
 export default function MovieDetails() {
@@ -16,6 +17,9 @@ export default function MovieDetails() {
         <h3 className={styles.director}>{director}</h3>
         <h1>TO BE CONTINUE...</h1>
       </div>
+      <button>
+      <Link to={'/home'} className={styles.Volver}>Home</Link>
+      </button>
     </div>
   );
 }

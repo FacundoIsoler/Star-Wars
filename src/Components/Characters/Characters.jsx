@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { getCharacter } from "../../Actions";
 import styles from "./Characters.module.css";
 
@@ -127,6 +127,11 @@ function Characters() {
           </div>
         </div>
       ))}
+
+      <button>
+      <Link to={'/home'} className={styles.Volver}>Home</Link>
+      </button>
+      <br />
     </div>
   );
 }
